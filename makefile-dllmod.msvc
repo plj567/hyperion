@@ -1,0 +1,128 @@
+# ***************************************************************************
+# MAKEFILE-DLLMOD.MSVC (C) Copyright Roger Bowler, 2005-2010
+#
+# Build Hercules for Win32 using MSVC and nmake (DLL version with loadable modules)
+#
+# ***************************************************************************
+
+INCDIR = msvc.makefile.includes
+
+# ---------------------------------------------------------------------
+!INCLUDE $(INCDIR)\VSVERS.msvc
+!INCLUDE $(INCDIR)\TARGETVER.msvc
+!INCLUDE $(INCDIR)\CONFIG.msvc
+!INCLUDE $(INCDIR)\OUTPUT_DIRS.msvc
+!INCLUDE $(INCDIR)\MODULES.msvc
+!INCLUDE $(INCDIR)\OBJ_CODE.msvc
+!INCLUDE $(INCDIR)\ZLIB_DIR.msvc
+!INCLUDE $(INCDIR)\BZIP2_DIR.msvc
+!INCLUDE $(INCDIR)\PCRE_DIR.msvc
+!INCLUDE $(INCDIR)\REXX_DIRS.msvc
+!INCLUDE $(INCDIR)\HQA_DIR.msvc
+# ---------------------------------------------------------------------
+
+cc      =  cl
+link    =  link
+implib  =  lib
+rc      =  Rc
+
+# Settings common to all architectures and builds...
+
+rcflags     =  /r
+conlflags   =  /INCREMENTAL:NO /NOLOGO -subsystem:console,$(APPVER)
+conlibsdll  =  kernel32.lib  ws2_32.lib mswsock.lib advapi32.lib
+cflags      =  -c -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -GS -DWIN32 -D_WIN32 -W3 -D_WINNT -D_WIN32_WINNT=$(NMAKE_WINVER) -DNTDDI_VERSION=$(NMAKE_WINVER)0000 -D_WIN32_IE=$(_WIN32_IE) -DWINVER=$(NMAKE_WINVER)
+cvarsdll    =  -D_MT -D_DLL
+dlllflags   =  /INCREMENTAL:NO /NOLOGO -dll
+rcvars      =  -DWIN32 -D_WIN32 -DWINVER=$(NMAKE_WINVER)
+
+# We use CLANG if the CL envrionment variable is set, e.g. with a  SET "CL=-mcx16 /w"
+# The -DHAVE_SOCKLEN_T avoids a type redefinition from "ws2tcpip.h"
+
+!IFDEF CL
+
+cc      =  clang-cl
+cflags  =  $(cflags) -DHAVE_SOCKLEN_T
+
+!ENDIF
+
+# Now set values unique to architecture and/or build...
+
+!IF "$(CFG)" == "DEBUG"
+
+cdebug   =  -Zi -Od -DDEBUG
+ldebug   =  /DEBUG /DEBUGTYPE:cv
+rcvars   =  $(rcvars) -DDEBUG -D_DEBUG
+cvarsdll =  $(cvarsdll) -MDd
+
+!ELSE
+
+cdebug   =  -Ox -DNDEBUG
+ldebug   =  /RELEASE
+rcvars   =  $(rcvars)
+cvarsdll =  $(cvarsdll) -MD
+
+!ENDIF
+
+!IF "$(CPU)" == "AMD64"
+
+cflags     =  $(cflags) -D_AMD64_=1 -DWIN64 -D_WIN64
+dlllflags  =  $(dlllflags) -entry:_DllMainCRTStartup
+rcvars     =  $(rcvars) -DWIN64 -D_WIN64
+
+!ELSE
+
+cflags     =  $(cflags) -D_X86_=1
+dlllflags  =  $(dlllflags) -entry:_DllMainCRTStartup@12
+rcvars     =  $(rcvars)
+
+!ENDIF
+
+# ---------------------------------------------------------------------
+!INCLUDE $(INCDIR)\DEBUG_RETAIL.msvc
+!INCLUDE $(INCDIR)\ZLIB_FLAGS.msvc
+!INCLUDE $(INCDIR)\BZIP2_FLAGS.msvc
+!INCLUDE $(INCDIR)\PCRE_FLAGS.msvc
+!INCLUDE $(INCDIR)\REXX_FLAGS.msvc
+!INCLUDE $(INCDIR)\IPV6_FLAGS.msvc
+!INCLUDE $(INCDIR)\HQA_FLAGS.msvc
+!INCLUDE $(INCDIR)\HERC_FLAGS.msvc
+!INCLUDE $(INCDIR)\VERSION.msvc
+!INCLUDE $(INCDIR)\EXT_PKGS.msvc
+# ---------------------------------------------------------------------
+
+!IFDEF DYNDIR
+!INCLUDE $(DYNDIR)$(DYNMOD).msvc
+MODULES = $(MODULES) $(X)$(DYNMOD).dll
+rcflags = $(rcflags) -D TARGETFILENAME=\"$(DYNMOD).dll\" -D MAX_CPU_ENGINES_STR=\"$(MAX_CPU_ENGS)\"
+!ENDIF
+
+!IF EXIST($(HQA_DIR)\HQA.msvc)
+!MESSAGE NOTE: "HQA.msvc" will be !INCLUDED from "$(HQA_DIR)"
+!INCLUDE  $(HQA_DIR)\HQA.msvc
+!ENDIF
+
+# ---------------------------------------------------------------------
+!INCLUDE $(INCDIR)\PRIM_RULES.msvc
+!INCLUDE $(INCDIR)\OUTDIR_RULES.msvc
+!INCLUDE $(INCDIR)\MOD_RULES1.msvc
+!INCLUDE $(INCDIR)\MOD_RULES2.msvc
+!INCLUDE $(INCDIR)\ZLIB_RULES.msvc
+!INCLUDE $(INCDIR)\BZIP2_RULES.msvc
+!INCLUDE $(INCDIR)\PCRE_RULES.msvc
+!INCLUDE $(INCDIR)\REXX_RULES.msvc
+# ---------------------------------------------------------------------
+
+!IFDEF DYNDIR
+
+$(O)$(DYNMOD).res: $(DYNDIR)$(DYNMOD).rc
+    $(rc) $(rcflags) $(rcvars) -fo $(O)$(DYNMOD).res $(DYNDIR)$(DYNMOD).rc
+
+$(X)$(DYNMOD).dll: $(O)$(DYNMOD).res $(DYNOBJ) $(O)hengine.lib $(O)hutil.lib $(O)hsys.lib
+    $(linkdll)
+    $(MT_DLL_CMD)
+
+{$(DYNDIR)}.c{$(OBJDIR)}.obj::
+    $(cc) $(cdebug) $(cflags) $(use_pch_opt) $(cvarsdll) /Fo"$(OBJDIR)\\" /Fd"$(OBJDIR)\\" $<
+
+!ENDIF
