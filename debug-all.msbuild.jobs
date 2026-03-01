@@ -1,0 +1,5 @@
+
+* Parallel-build all "Debug" Configurations for all Platforms...
+
+MSBUILD   "%ProjectFileName%"  %MSBUILDOPT%  /p:Configuration=Debug;Platform=Win32
+MSBUILD   "%ProjectFileName%"  %MSBUILDOPT%  /p:Configuration=Debug;Platform=x64
