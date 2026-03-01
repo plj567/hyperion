@@ -1,0 +1,5059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5B799457-D8CE-492d-B610-D73BC167A0BF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{f31b8889-ce34-4c2e-8d17-83c928c012b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\disk">
+      <UniqueIdentifier>{f2ab6a83-c9cd-4c3b-aac4-7197dfccc385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\tape">
+      <UniqueIdentifier>{bcd2c54e-f7bb-4a31-8c61-5345246957ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\other">
+      <UniqueIdentifier>{eaced0d0-2b95-4955-8fd9-83508f934372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules">
+      <UniqueIdentifier>{c020b304-3066-488c-aea1-9f30223c312a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices">
+      <UniqueIdentifier>{5b6be5ce-c818-43d9-a3bd-39b41776792e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Con/Disp/Term">
+      <UniqueIdentifier>{bc30db16-4e9d-44bf-8539-d65e1bb0837d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Con/Disp/Term\Header Files">
+      <UniqueIdentifier>{85c6accc-c9a1-442e-ad28-121b5802c7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Con/Disp/Term\Source Files">
+      <UniqueIdentifier>{60c92cd7-fa16-4f2b-add5-d1eb893a2009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\CTC">
+      <UniqueIdentifier>{df76e136-09e0-4cce-a29e-783960249630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\CTC\Header Files">
+      <UniqueIdentifier>{d45fe6e8-7550-4d1c-b039-f7a0018d851d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\CTC\Source Files">
+      <UniqueIdentifier>{6531ee0b-36b2-409b-9ef8-e187ba35ad56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Dasd">
+      <UniqueIdentifier>{88d65600-9d9e-40a3-941f-b4667c2795b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Dasd\Header Files">
+      <UniqueIdentifier>{680c16c3-eb25-4f28-89c3-6c87c3b53ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Dasd\Source Files">
+      <UniqueIdentifier>{64c7f38a-270f-4d9d-ba91-78716e8ed3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Tape">
+      <UniqueIdentifier>{2cc07780-d5a8-4568-a426-fc96f6fc8994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Tape\Header Files">
+      <UniqueIdentifier>{d37faa94-5448-4c8c-a41b-92527dfbe912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Tape\Source Files">
+      <UniqueIdentifier>{8864ee23-8d65-411e-b4f1-3611d995ab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Unit Record">
+      <UniqueIdentifier>{83ef8a9d-bf82-4cfb-abef-cf6c85fca91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Unit Record\Header Files">
+      <UniqueIdentifier>{d1d8b488-0438-456e-8339-5f68c23cc545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\Unit Record\Source Files">
+      <UniqueIdentifier>{062ec29e-ffbb-4147-af6f-ba46a902019c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Devices\zFCP">
+      <UniqueIdentifier>{2ad8985d-733a-4b3b-ac11-4a24cf7f14c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Emulation">
+      <UniqueIdentifier>{3dc07aa0-612d-4368-8ce0-d8d10ebb1c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Emulation\Source Files">
+      <UniqueIdentifier>{d18bdaba-5247-4acd-bb43-f7c090e45a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\Emulation\Header Files">
+      <UniqueIdentifier>{ab161548-c943-44f0-8d63-aba7f82ec735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e43a3a50-9486-4c11-87cf-f6deefff2a82}</UniqueIdentifier>
+      <Extensions>.rc</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{b531e542-cec0-458d-b7da-ef5721c624bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC">
+      <UniqueIdentifier>{6d51c8d8-cb19-4c0c-a632-3253c6d028ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\README">
+      <UniqueIdentifier>{ba190095-ce33-4351-a3f3-87fd243b6e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\html">
+      <UniqueIdentifier>{4f3c1281-ad70-4204-8774-4976eb3d5b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\html\herc">
+      <UniqueIdentifier>{083fe1c5-bf72-4898-942a-e434ff10fcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\html\msgs">
+      <UniqueIdentifier>{f72196d3-f302-443a-bf58-09a5d25a9fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\html\images">
+      <UniqueIdentifier>{06c278ef-d211-4f38-a966-ddeec761905d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\html\include">
+      <UniqueIdentifier>{688d28fd-0a15-4d19-b5c0-20d1b814ec38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\man">
+      <UniqueIdentifier>{0d1d21bd-bcdc-4567-ba4b-1af9100580a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build">
+      <UniqueIdentifier>{709cdf75-bf77-47af-812a-c9e909dd34cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc">
+      <UniqueIdentifier>{11c22256-26c0-4020-983c-dc0d92c880ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\makefile includes">
+      <UniqueIdentifier>{7a84ae0f-b578-4465-bb74-2f3ca7ed5d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\runjobs.jobs">
+      <UniqueIdentifier>{bfe19107-b9e1-4f58-9cf2-9b904663d2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\VS2008">
+      <UniqueIdentifier>{5387271f-51d6-4a79-960c-92afe3620329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\VS2015">
+      <UniqueIdentifier>{65d8ee88-988d-40e5-b27a-a183326d9749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\VS2017">
+      <UniqueIdentifier>{6a452be7-7ba2-404c-9441-2e642e291c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\VS2019">
+      <UniqueIdentifier>{9C420C3E-E3FC-4eaa-A730-385D018336B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\msvc\VS2022">
+      <UniqueIdentifier>{884a6127-b7f1-4774-b9d7-30e623c4a03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\other">
+      <UniqueIdentifier>{3bffa35c-5784-4032-bad4-aa9ce018456b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\other\autoconf">
+      <UniqueIdentifier>{8afc3b31-b0cc-490f-94dc-c294d68df654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Build\other\m4">
+      <UniqueIdentifier>{b4d3323e-b676-410e-9f2d-4a19b5365a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\Utilities">
+      <UniqueIdentifier>{bc87fd6c-cfd8-46c8-b4d7-2f87a5f3e36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests">
+      <UniqueIdentifier>{62bb9ddf-17a6-43ff-9082-21e9dc0b0d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\core">
+      <UniqueIdentifier>{d999b6e2-9004-4026-8de8-3ca90af984f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts">
+      <UniqueIdentifier>{ca8f4eed-4753-41ef-96d6-84c609718a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\txt">
+      <UniqueIdentifier>{8db4040b-6e69-424d-8104-ed4281e7fced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\assemble">
+      <UniqueIdentifier>{2cdba3ce-5d7c-4446-b76d-22ffd6b1c4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\assemble\listing">
+      <UniqueIdentifier>{bc5d652a-ff25-4baf-8229-3316ea980baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\tst">
+      <UniqueIdentifier>{34c6e388-b1b3-4904-acc2-f36a12d86ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\tst\subtst">
+      <UniqueIdentifier>{824efe30-2700-40e8-bca7-6822842b6ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\asm">
+      <UniqueIdentifier>{213a2d59-6e3c-43be-b9b0-b28475feb188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\tests\scripts\asm\list">
+      <UniqueIdentifier>{30b3c114-48e7-40a3-a24f-7f7eec6ad6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\misc">
+      <UniqueIdentifier>{1666044c-d104-4917-9e91-4c658c351342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\scripts">
+      <UniqueIdentifier>{30b441cd-d7f4-4ae7-95f1-24489de483b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs">
+      <UniqueIdentifier>{a493de40-1aef-4d34-8bec-2205bf525e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\crypto">
+      <UniqueIdentifier>{4653e16b-d033-47f4-b003-b9fbb97274ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\crypto\include">
+      <UniqueIdentifier>{b5b5a601-14fd-4393-8599-bf81ca3e50cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\crypto\lib">
+      <UniqueIdentifier>{07be66ad-c4b3-4579-914d-d5f2695ed7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\decNumber">
+      <UniqueIdentifier>{0d3e0ef3-cda1-4750-ade8-298488709fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\decNumber\include">
+      <UniqueIdentifier>{71207f0b-bcaa-45ed-8f25-a19e44617899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\decNumber\lib">
+      <UniqueIdentifier>{ae985d69-6d37-4f13-8e97-3eede9beb92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\SoftFloat">
+      <UniqueIdentifier>{ae8c97c2-b99e-4278-8133-84ce76e383bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\SoftFloat\include">
+      <UniqueIdentifier>{5f24ada2-815a-48ed-8e4f-4b3d32516b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\SoftFloat\lib">
+      <UniqueIdentifier>{082567a4-eda5-4b90-b8fe-c933fdf8c036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\SoftFloat\doc">
+      <UniqueIdentifier>{30692132-b2a1-4703-8b95-c538fa9065d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\telnet">
+      <UniqueIdentifier>{AA385C27-3D78-451f-BA4F-0CB6253CBFCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\telnet\include">
+      <UniqueIdentifier>{8997E620-7FB4-473f-B680-86BA1781AB20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hercules\ExtPkgs\telnet\lib">
+      <UniqueIdentifier>{7E51CA54-4311-406d-9C9D-ED79986330BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files\DOC\README\images">
+      <UniqueIdentifier>{959cf32d-895f-4258-b529-320fdeeeac1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cckdcdsk.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdcomp.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckddiag.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdswap.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdcdsk64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdcomp64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckddiag64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdswap64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdmap.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="convto64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdcat.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdconv.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdcopy.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdinit.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdconv64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdcopy64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdinit64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdisup.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdload.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdload64.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdls.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdpdsu.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdseq.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdser.c">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="hetget.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="hetinit.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="hetmap.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="hetupd.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="maketape.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="tapecopy.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="tapemap.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="tapesplt.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="vmfplc2.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="vstore.c">
+      <Filter>Source Files\Utilities\tape</Filter>
+    </ClCompile>
+    <ClCompile Include="conspawn.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="dmap2hrc.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="herclin.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="dyncrypt.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="con1052c.c">
+      <Filter>Source Files\Hercules\Devices\Con/Disp/Term\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.c">
+      <Filter>Source Files\Hercules\Devices\Con/Disp/Term\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comm3705.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commadpt.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctc_ctci.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctc_lcs.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctc_ptp.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctcadpt.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dummydev.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hercifc.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="him.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netsupp.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qeth.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpnje.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tuntap.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w32ctca.c">
+      <Filter>Source Files\Hercules\Devices\CTC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cckddasd.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdutil.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ckddasd.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cckddasd64.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cckdutil64.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ckddasd64.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdtab.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdutil.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fbadasd.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdutil64.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fbadasd64.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.c">
+      <Filter>Source Files\Hercules\Devices\Dasd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="awstape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="faketape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ftlib.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hetlib.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hettape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="omatape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scsitape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scsiutil.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sllib.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tapeccws.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tapedev.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w32stape.c">
+      <Filter>Source Files\Hercules\Devices\Tape\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cardpch.c">
+      <Filter>Source Files\Hercules\Devices\Unit Record\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cardrdr.c">
+      <Filter>Source Files\Hercules\Devices\Unit Record\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printer.c">
+      <Filter>Source Files\Hercules\Devices\Unit Record\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sockdev.c">
+      <Filter>Source Files\Hercules\Devices\Unit Record\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zfcp.c">
+      <Filter>Source Files\Hercules\Devices\zFCP</Filter>
+    </ClCompile>
+    <ClCompile Include="_archdep_templ.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="archlvl.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assist.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bldcfg.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bootstrap.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build_pch.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cache.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cgibin.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chsc.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdtab.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpsc_2012.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpscdbg.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpscdct.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpscget.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpscmem.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpscput.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codepage.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dat.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decimal.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dfp.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagmssf.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diagnose.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn76.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dyngui.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecpsvm.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="esame.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="facility.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fillfnam.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="float.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fthreads.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general1.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general2.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general3.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hao.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hchan.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hbyteswp.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hconsole.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdiagf18.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdl.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdteq.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hexdumpe.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="history.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hostinfo.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hRexx.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hRexx_o.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hRexx_r.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hRexxapi.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hsccmd.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hscemode.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hscloc.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hscmisc.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hscpufun.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hscutl.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hsocket.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hsys.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hthreads.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpserv.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ieee.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impl.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inline.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ipl.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadmem.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadparm.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logmsg.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="losc.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="machchk.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="machdep.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memrchr.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpc.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nnpa.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcode.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pfpo.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plo.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pttrace.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qdio.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resolve.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scedasd.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scescsi.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sie.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skey.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sr.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strsignal.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpip.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tfprint.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="tfswap.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="txt2card.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="card2txt.c">
+      <Filter>Source Files\Utilities\other</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transact.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vm.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vmd250.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w32util.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x75.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xstore.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dasdload2.h">
+      <Filter>Source Files\Utilities\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="zvector.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zvector2.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zvector3.c">
+      <Filter>Source Files\Hercules\Emulation\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="crypto\lib\crypto32.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\crypto32d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\crypto64.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\crypto64d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\decNumber32.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\decNumber32d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\decNumber64.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\decNumber64d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\SoftFloat32.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\SoftFloat32d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\SoftFloat64.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\SoftFloat64d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="telnet\lib\telnet32.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\telnet32d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\telnet64.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\telnet64d.pdb">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="crypto\lib\libcrypto32.a">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\libcrypto32d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\libcrypto64.a">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="crypto\lib\libcrypto64d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\libdecNumber32.a">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\libdecNumber32d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\libdecNumber64.a">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="decNumber\lib\libdecNumber64d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\libSoftFloat32.a">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\libSoftFloat32d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\libSoftFloat64.a">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="SoftFloat\lib\libSoftFloat64d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </None>
+    <None Include="telnet\lib\libtelnet32.a">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\libtelnet32d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\libtelnet64.a">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="telnet\lib\libtelnet64d.a">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </None>
+    <None Include="crypto\crypto.LICENSE.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto</Filter>
+    </None>
+    <None Include="crypto\crypto.README.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto</Filter>
+    </None>
+    <None Include="decNumber\decnumber.pdf">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber</Filter>
+    </None>
+    <None Include="decNumber\decnumber.ERRATA">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber</Filter>
+    </None>
+    <None Include="decNumber\decnumber.ICU-license.html">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber</Filter>
+    </None>
+    <None Include="telnet\telnet.README.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet</Filter>
+    </None>
+    <None Include="telnet\telnet.LICENSE.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet</Filter>
+    </None>
+    <None Include="SoftFloat\softfloat.README.html">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat</Filter>
+    </None>
+    <None Include="SoftFloat\doc\SoftFloat-history.html">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\doc</Filter>
+    </None>
+    <None Include="SoftFloat\doc\SoftFloat-source.html">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\doc</Filter>
+    </None>
+    <None Include="SoftFloat\doc\SoftFloat.html">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\doc</Filter>
+    </None>
+    <None Include=".gitattributes">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hercver.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CHANGES">
+      <Filter>Other Files\DOC</Filter>
+    </None>
+    <None Include="COPYRIGHT">
+      <Filter>Other Files\DOC</Filter>
+    </None>
+    <None Include="readme\README.ISSUES.md">
+      <Filter>Other Files\DOC</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Other Files\DOC</Filter>
+    </None>
+    <None Include="RELEASE.NOTES">
+      <Filter>Other Files\DOC</Filter>
+    </None>
+    <None Include="readme\README.ADDING.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.AIX.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.APL360.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.BSD.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.CCKD64.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.CMPSC.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.COMMADPT.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.DAEMON.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.DYNMOD.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.ECPSVM.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.FACILITIES.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.EXTPKG.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.HAO.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.HDL.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.HERCLOGO.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.HQA.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.HRAF.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.MAKETAPE.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.MINGW.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.MSVC.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.NETWORKING.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.OSX.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.PTT.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.REXX.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.RUNTEST.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.RXVT4APL.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.S37X.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.SETUID.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.SNA.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.SUN.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.TAPE.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.TCPIP.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.TCPNJE.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.TRACEFILE.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.VMFPLC2.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="readme\README.WIN64.md">
+      <Filter>Other Files\DOC\README</Filter>
+    </None>
+    <None Include="html\hercules.css">
+      <Filter>Other Files\DOC\html</Filter>
+    </None>
+    <None Include="html\Makefile.am">
+      <Filter>Other Files\DOC\html</Filter>
+    </None>
+    <None Include="html\cckddasd.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\fishgui.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercconf.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercfaq.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercinst.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\herclic.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercload.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercnew.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercrdr.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercrnot.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercsupp.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\herctcp.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercules.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\index.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\rexx.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\shared.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\tasks.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\telnet.html">
+      <Filter>Other Files\DOC\html\herc</Filter>
+    </None>
+    <None Include="html\hercmsca.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmscf.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmscp.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsct.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmscu.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsda.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdc.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdg.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdi.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdl.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdn.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsds.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdt.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsdu.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsg.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmshd.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmshe.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmshg.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmshm.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsht.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmshu.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsif.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsin.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmslc.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmslg.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmspn.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmspr.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmspu.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsrd.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmssd.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsta.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmstc.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmste.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmstm.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsts.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmstt.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmstu.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\hercmsvm.html">
+      <Filter>Other Files\DOC\html\msgs</Filter>
+    </None>
+    <None Include="html\include\footer.htmlpart">
+      <Filter>Other Files\DOC\html\include</Filter>
+    </None>
+    <None Include="html\include\header.htmlpart">
+      <Filter>Other Files\DOC\html\include</Filter>
+    </None>
+    <None Include="man\cckd.4">
+      <Filter>Other Files\DOC\man</Filter>
+    </None>
+    <None Include="man\cckddiag.1">
+      <Filter>Other Files\DOC\man</Filter>
+    </None>
+    <None Include="man\dasdseq.1">
+      <Filter>Other Files\DOC\man</Filter>
+    </None>
+    <None Include="man\Makefile.am">
+      <Filter>Other Files\DOC\man</Filter>
+    </None>
+    <None Include="man\vmfplc2.1">
+      <Filter>Other Files\DOC\man</Filter>
+    </None>
+    <None Include="BUILDING">
+      <Filter>Other Files\Build</Filter>
+    </None>
+    <None Include="INSTALL">
+      <Filter>Other Files\Build</Filter>
+    </None>
+    <None Include="_dynamic_version.cmd">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include="dynmake.bat">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include="makefile-dllmod.msvc">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include="makefile.bat">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include="makefile.msvc">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\BZIP2_DIR.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\BZIP2_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\BZIP2_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\CONFIG.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\DEBUG_RETAIL.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\EXT_PKGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\HERC_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\HQA_DIR.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\HQA_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\IPV6_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\MOD_RULES1.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\MOD_RULES2.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\MODULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\OBJ_CODE.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\OUTDIR_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\OUTPUT_DIRS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\PCRE_DIR.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\PCRE_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\PCRE_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\PRIM_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\REXX_DIRS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\REXX_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\REXX_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\TARGETVER.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\VERSION.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\VSVERS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\ZLIB_DIR.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\ZLIB_FLAGS.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="msvc.makefile.includes\ZLIB_RULES.msvc">
+      <Filter>Other Files\Build\msvc\makefile includes</Filter>
+    </None>
+    <None Include="all-all.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="all-all.msbuild.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="debug-all.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="debug-all.msbuild.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="retail-all.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="retail-all.msbuild.jobs">
+      <Filter>Other Files\Build\msvc\runjobs.jobs</Filter>
+    </None>
+    <None Include="Hercules_VS2008.sln">
+      <Filter>Other Files\Build\msvc\VS2008</Filter>
+    </None>
+    <None Include="Hercules_VS2008.vcproj">
+      <Filter>Other Files\Build\msvc\VS2008</Filter>
+    </None>
+    <None Include="Hercules_VS2015.sln">
+      <Filter>Other Files\Build\msvc\VS2015</Filter>
+    </None>
+    <None Include="Hercules_VS2015.vcxproj">
+      <Filter>Other Files\Build\msvc\VS2015</Filter>
+    </None>
+    <None Include="Hercules_VS2015.vcxproj.filters">
+      <Filter>Other Files\Build\msvc\VS2015</Filter>
+    </None>
+    <None Include="Hercules_VS2017.sln">
+      <Filter>Other Files\Build\msvc\VS2017</Filter>
+    </None>
+    <None Include="Hercules_VS2017.vcxproj">
+      <Filter>Other Files\Build\msvc\VS2017</Filter>
+    </None>
+    <None Include="Hercules_VS2017.vcxproj.filters">
+      <Filter>Other Files\Build\msvc\VS2017</Filter>
+    </None>
+    <None Include="Hercules_VS2019.sln">
+      <Filter>Other Files\Build\msvc\VS2019</Filter>
+    </None>
+    <None Include="Hercules_VS2019.vcxproj">
+      <Filter>Other Files\Build\msvc\VS2019</Filter>
+    </None>
+    <None Include="Hercules_VS2019.vcxproj.filters">
+      <Filter>Other Files\Build\msvc\VS2019</Filter>
+    </None>
+    <None Include="Hercules_VS2022.sln">
+      <Filter>Other Files\Build\msvc\VS2022</Filter>
+    </None>
+    <None Include="Hercules_VS2022.vcxproj">
+      <Filter>Other Files\Build\msvc\VS2022</Filter>
+    </None>
+    <None Include="Hercules_VS2022.vcxproj.filters">
+      <Filter>Other Files\Build\msvc\VS2022</Filter>
+    </None>
+    <None Include="_dynamic_version">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="autogen.sh">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="util\bldlvlck">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="configure.ac">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="autoconf\hercules.m4">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="Makefile.am">
+      <Filter>Other Files\Build\other</Filter>
+    </None>
+    <None Include="autoconf\config.guess">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\config.rpath">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\config.sub">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\depcomp">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\install-sh">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\libtool.m4">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\ltdl.m4">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\ltmain.sh">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\missing">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\mkinstalldirs">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="autoconf\README">
+      <Filter>Other Files\Build\other\autoconf</Filter>
+    </None>
+    <None Include="m4\ChangeLog">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\codeset.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\gettext.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\glibc2.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\glibc21.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\iconv.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\intdiv0.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\intmax.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\inttypes-pri.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\inttypes.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\inttypes_h.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\isc-posix.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\lcmessage.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\lib-ld.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\lib-link.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\lib-prefix.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\longdouble.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\longlong.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\Makefile.am">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\nls.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\po.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\printf-posix.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\progtest.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\signed.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\size_max.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\stdint_h.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\uintmax_t.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\ulonglong.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\wchar_t.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\wint_t.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="m4\xsize.m4">
+      <Filter>Other Files\Build\other\m4</Filter>
+    </None>
+    <None Include="util\awssl-v19g">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\awswrite.jcl">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\configure.ac">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\dasdlist">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\dasdlist.bat">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\Makefile.am">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\rawstape.jcl">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\scsiboot">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\tapeconv.jcl">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\voldsext.cmd">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="util\zzsacard.bin">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+    <None Include="tests\3330.cckd64">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\3380.cckd64">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\3390.cckd64">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\awsbsf.aws">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\hetbsf-bzip2.het">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\hetbsf.het">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\Makefile.am">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\mkcore.rexx">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\README.md">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\redtest.rexx">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\runtest">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\runtest.cmd">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\tests.conf">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\3211.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bc-ilc.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bc-ilc.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bc-ilc.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bc-ilc.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bc-ilc.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-001-divtoint.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-002-loadr.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-003-loadfpi.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-004-cvttolog.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-005-cvttolog64.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-006-cvttofix.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-007-cvttofix64.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-008-cvtfrlog.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-009-cvtfrlog64.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-010-cvtfrfix.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-011-cvtfrfix64.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-012-loadtest.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-013-comps.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-014-divide.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-015-sqrt.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-016-add.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-017-loadl.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-018-subtract.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-019-multiply.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-020-multlonger.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-021-multadd.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-022-multsub.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bfp-023-threads.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\bim-001-add-sub.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCLE-01-unaligned-buffers.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCLE-02-unaligned-buffers.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCLE-03-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCLE-04-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CU12-01-xpage.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CU12-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CU14-01-xpage.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CU14-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CUSE-01-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CUSE-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\E7Prefix.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\dfp-080-from-packed.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\dfp-080-to-packed.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\FAC53.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\GH615.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRE-01-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRE-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTE-01-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTE-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTR-01-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTR-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTRE-01-basic.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TRTRE-02-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-01-loads.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-02-stores.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-03-pack.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-04-unpack.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-05-packarith.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-06-VPKZR.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-07-VSRPR.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-08-VLRLR.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-09-VSTRLR.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-10-VLIP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-11-convertbinary.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-12-countzonedhighlow.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-13-converttodecimal.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-14-testdecimal.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-15-comparedecimal.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-16-VSRP-VPSOP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-17-VSCHP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-18-VSCSHP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-19-VCSPH.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-20-NNPconvert.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e6-21-VCRNF.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-01-MinMaxAvg.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-02-VGFM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-03-VGFMA.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-04-BitCount.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-05-VTM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-06-Find.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-07-VGBM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-08-VISTR.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-09-multiply.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-10-multiplyAdd.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-11-logical.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-12-elementShift.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-13-UnpackMisc.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-14-MergePack.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-15-ShiftByByte.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-16-PackCompare.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-17-AddSub.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-18-VBPERM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-19-VPERM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-20-VSLDB.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-21-VREPI.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-22-VREP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-23-VLREP.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-24-SumAcross.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-25-VSTRS.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-26-VGM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-27-VERIM.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-28-ShiftVector.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-29-ShiftDoubleByBit.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\zvector-e7-99-performance.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\FAC53.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\FAC53.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\FAC53.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\FAC53.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\FAC5861.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\FAC5861.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\FAC5861.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\FAC5861.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\FAC5861.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\fix-page.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\fix-page.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\fix-page.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\fix-page.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\fix-page.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\float.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\float.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\float.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\float.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\float.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\PERZAD.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\pfpo.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\stfl.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\str-001-cksm.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\str-001-clst.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\str-001-mvst.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\str-001-srst.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\agf.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\cipher.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\csxtr.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\digest.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\ilc.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\invpsw.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\leapfrog.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\logicimm.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\mvcle.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\sigp.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\skey370.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\skey390z.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\skey370.TXTCARDS">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\skey370.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\skey390z.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\skey370.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\skey370.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\skey390z.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\skey390z.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\skey370.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\skey390z.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\sske.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\agf.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\cipher.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\csxtr.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\digest.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\ilc.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\invpsw.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\leapfrog.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\logicimm.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\mvcle.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\sigp.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\sske.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\1403.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\3211.rexx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\3211.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\agf.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\awsbsf.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-001-divtoint.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-002-loadr.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-003-loadfpi.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-004-cvttolog.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-005-cvttolog64.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-006-cvttofix.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-007-cvttofix64.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-008-cvtfrlog.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-009-cvtfrlog64.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-010-cvtfrfix.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-011-cvtfrfix64.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-012-loadtest.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-013-comps.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-014-divide.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-015-sqrt.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-016-add.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-017-loadl.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-018-subtract.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-019-multiply.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-020-multlonger.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-021-multadd.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-022-multsub.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bfp-023-threads.sptst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\bim-001-add-sub.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCLE-01-unaligned-buffers.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCLE-02-unaligned-buffers.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCLE-03-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCLE-04-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\cipher.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\cmd-abs.xxx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\cmd-rv.xxx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\cr.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\csxtr.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CU12-01-xpage.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CU12-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CU14-01-xpage.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CU14-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CUSE-01-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CUSE-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\E7Prefix.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\dfp-080-from-packed.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\dfp-080-to-packed.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\GH615.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\digest.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\hetbsf.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\ifelse.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\ilc.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\invpsw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\leapfrog.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\logicimm.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\mainsize.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\mhi.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\mvcle.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\mvcos-001.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\mvcos-001.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\mvcos-001.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\mvcos-001.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\mvcos-001.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\PERZAD.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\pfpo.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\pr.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\runtest0.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\runtest4.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\sigp.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\ssk370.xxx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\sske.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\sske370.xxx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\sske390.xxx">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\stfl.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\str-001-cksm.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\str-001-clst.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\str-001-mvst.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\str-001-srst.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\stidp.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\stidp-force.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\timeout.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRE-01-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRE-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTE-01-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTE-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTR-01-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTR-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTRE-01-basic.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TRTRE-02-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-01-loads.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-02-stores.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-03-pack.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-04-unpack.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-05-packarith.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-06-VPKZR.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-07-VSRPR.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-08-VLRLR.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-09-VSTRLR.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-10-VLIP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-11-convertbinary.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-12-countzonedhighlow.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-13-converttodecimal.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-14-testdecimal.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-15-comparedecimal.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-16-VSRP-VPSOP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-17-VSCHP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-18-VSCSHP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-19-VCSPH.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-20-NNPconvert.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e6-21-VCRNF.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-01-MinMaxAvg.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-02-VGFM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-03-VGFMA.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-04-BitCount.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-05-VTM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-06-Find.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-07-VGBM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-08-VISTR.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-09-multiply.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-10-multiplyAdd.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-11-logical.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-12-elementShift.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-13-UnpackMisc.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-14-MergePack.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-15-ShiftByByte.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-16-PackCompare.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-17-AddSub.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-18-VBPERM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-19-VPERM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-20-VSLDB.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-21-VREPI.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-22-VREP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-23-VLREP.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-24-SumAcross.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-25-VSTRS.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-26-VGM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-27-VERIM.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-28-ShiftVector.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-29-ShiftDoubleByBit.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zvector-e7-99-performance.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\cmd-abs-2K.subxxx">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\cmd-abs-4K.subxxx">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\cmd-rv-2K.subxxx">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\cmd-rv-4K-32.subxxx">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\cmd-rv-4K-64.subxxx">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\dummy.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\pr.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\runtest.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\stidp-esa390.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\stidp-s370.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\stidp-zarch.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\tapebsf.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\3211.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-001-divtoint.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-002-loadr.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-003-loadfpi.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-004-cvttolog.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-005-cvttolog64.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-006-cvttofix.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-007-cvttofix64.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-008-cvtfrlog.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-009-cvtfrlog64.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-010-cvtfrfix.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-011-cvtfrfix64.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-012-loadtest.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-013-comps.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-014-divide.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-015-sqrt.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-016-add.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-017-loadl.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-018-subtract.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-019-multiply.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-020-multlonger.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-021-multadd.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-022-multsub.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bfp-023-threads.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\bim-001-add-sub.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCLE-01-unaligned-buffers.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCLE-02-unaligned-buffers.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCLE-03-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCLE-04-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CU12-01-xpage.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CU12-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CU14-01-xpage.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CU14-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CUSE-01-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CUSE-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\E7Prefix.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\dfp-080-from-packed.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\dfp-080-to-packed.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\dc-float.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\GH615.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\PERZAD.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\pfpo.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRE-01-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRE-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTE-01-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTE-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTR-01-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTR-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTRE-01-basic.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TRTRE-02-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-01-loads.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-02-stores.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-03-pack.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-04-unpack.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-05-packarith.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-06-VPKZR.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-07-VSRPR.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-08-VLRLR.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-09-VSTRLR.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-10-VLIP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-11-convertbinary.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-12-countzonedhighlow.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-13-converttodecimal.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-14-testdecimal.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-15-comparedecimal.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-16-VSRP-VPSOP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-17-VSCHP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-18-VSCSHP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-19-VCSPH.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-20-NNPconvert.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e6-21-VCRNF.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-01-MinMaxAvg.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-02-VGFM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-03-VGFMA.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-04-BitCount.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-05-VTM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-06-Find.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-07-VGBM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-08-VISTR.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-09-multiply.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-10-multiplyAdd.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-11-logical.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-12-elementShift.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-13-UnpackMisc.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-14-MergePack.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-15-ShiftByByte.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-16-PackCompare.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-17-AddSub.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-18-VBPERM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-19-VPERM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-20-VSLDB.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-21-VREPI.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-22-VREP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-23-VLREP.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-24-SumAcross.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-25-VSTRS.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-26-VGM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-27-VERIM.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-28-ShiftVector.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-29-ShiftDoubleByBit.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\zvector-e7-99-performance.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\3211.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\3211.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-001-divtoint.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-001-divtoint.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-002-loadr.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-002-loadr.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-003-loadfpi.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-003-loadfpi.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-004-cvttolog.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-004-cvttolog.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-005-cvttolog64.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-005-cvttolog64.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-006-cvttofix.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-006-cvttofix.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-007-cvttofix64.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-007-cvttofix64.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-008-cvtfrlog.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-008-cvtfrlog.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-009-cvtfrlog64.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-009-cvtfrlog64.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-010-cvtfrfix.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-010-cvtfrfix.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-011-cvtfrfix64.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-011-cvtfrfix64.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-012-loadtest.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-012-loadtest.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-013-comps.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-013-comps.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-014-divide.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-014-divide.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-015-sqrt.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-015-sqrt.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-016-add.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-016-add.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-017-loadl.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-017-loadl.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-018-subtract.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-018-subtract.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-019-multiply.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-019-multiply.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-020-multlonger.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-020-multlonger.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-021-multadd.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-021-multadd.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-022-multsub.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-022-multsub.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bfp-023-threads.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bim-001-add-sub.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\bim-001-add-sub.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-01-unaligned-buffers.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-01-unaligned-buffers.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-02-unaligned-buffers.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-02-unaligned-buffers.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-03-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-03-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-04-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCLE-04-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU12-01-xpage.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU12-01-xpage.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU12-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU12-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU14-01-xpage.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU14-01-xpage.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU14-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CU14-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CUSE-01-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CUSE-01-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CUSE-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CUSE-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\E7Prefix.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\E7Prefix.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\dfp-080-from-packed.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\dfp-080-to-packed.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\GH615.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\GH615.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\PERZAD.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\pfpo.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\PERZAD.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\PFPO.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRE-01-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRE-01-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRE-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRE-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTE-01-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTE-01-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTE-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTE-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTR-01-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTR-01-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTR-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTR-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTRE-01-basic.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTRE-01-basic.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTRE-02-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TRTRE-02-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-01-loads.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-01-loads.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-02-stores.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-02-stores.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-03-pack.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-03-pack.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-04-unpack.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-04-unpack.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-05-packarith.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-05-packarith.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-06-VPKZR.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-06-VPKZR.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-07-VSRPR.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-07-VSRPR.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-08-VLRLR.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+   <None Include="tests\zvector-e6-08-VLRLR.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-09-VSTRLR.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-09-VSTRLR.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-10-VLIP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-10-VLIP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-11-convertbinary.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-11-convertbinary.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-12-countzonedhighlow.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-12-countzonedhighlow.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-13-converttodecimal.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-13-converttodecimal.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-14-testdecimal.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-14-testdecimal.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-15-comparedecimal.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-15-comparedecimal.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-16-VSRP-VPSOP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-16-VSRP-VPSOP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-17-VSCHP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-17-VSCHP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-18-VSCSHP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-18-VSCSHP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-19-VCSPH.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-19-VCSPH.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-20-NNPconvert.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-20-NNPconvert.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-21-VCRNF.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e6-21-VCRNF.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-01-MinMaxAvg.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-01-MinMaxAvg.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-02-VGFM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-02-VGFM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-03-VGFMA.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-03-VGFMA.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-04-BitCount.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-04-BitCount.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-05-VTM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-05-VTM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-06-Find.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-06-Find.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-07-VGBM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-07-VGBM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-08-VISTR.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-08-VISTR.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-09-multiply.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-09-multiply.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-10-multiplyAdd.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-10-multiplyAdd.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-11-logical.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-11-logical.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-12-elementShift.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-12-elementShift.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-13-UnpackMisc.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-13-UnpackMisc.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-14-MergePack.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-14-MergePack.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-15-ShiftByByte.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-15-ShiftByByte.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-16-PackCompare.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-16-PackCompare.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-17-AddSub.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-17-AddSub.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-18-VBPERM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-18-VBPERM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-19-VPERM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-19-VPERM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-20-VSLDB.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-20-VSLDB.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-21-VREPI.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-21-VREPI.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-22-VREP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-22-VREP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-23-VLREP.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-23-VLREP.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-24-SumAcross.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-24-SumAcross.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-25-VSTRS.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-25-VSTRS.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-26-VGM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-26-VGM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-27-VERIM.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-27-VERIM.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-28-ShiftVector.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-28-ShiftVector.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-29-ShiftDoubleByBit.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-29-ShiftDoubleByBit.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-99-performance.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\zvector-e7-99-performance.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="hercules.cnf">
+      <Filter>Other Files\misc</Filter>
+    </None>
+    <None Include="hercules.cnf.rexx">
+      <Filter>Other Files\misc</Filter>
+    </None>
+    <None Include="scripts\cmpsc.cnf">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\cmpsc.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasic1.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasic2.rex">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasic3.cmd">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasic4.rx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasic5.ext1">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hbasics">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hcommand.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hexecio.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hlinein.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="scripts\hrecurs.rexx">
+      <Filter>Other Files\scripts</Filter>
+    </None>
+    <None Include="tests\mhi.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\privop.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\prno.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\problem.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\semipriv.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\ShiftLeft.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\kimd-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\klmd-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\kmac-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\kmc-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\kmctr-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\kmf-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\km-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\kmo-hw.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\privop.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\prno.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\problem.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\semipriv.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\ShiftLeft.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\wild.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\zeos.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\wild.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\zeos.assemble">
+      <Filter>Other Files\tests\scripts\assemble</Filter>
+    </None>
+    <None Include="tests\wild.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\zeos.listing">
+      <Filter>Other Files\tests\scripts\assemble\listing</Filter>
+    </None>
+    <None Include="tests\mhi.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\privop.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\prno.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\problem.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\semipriv.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\ShiftLeft.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\stfl.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\str-001-cksm.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\str-001-clst.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\str-001-mvst.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\str-001-srst.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\mhi.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\privop.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\prno.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\prno.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\problem.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\semipriv.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\ShiftLeft.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\ShiftLeft.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\stfl.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\stfl.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-cksm.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-cksm.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-clst.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-clst.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-mvst.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-mvst.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-srst.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\str-001-srst.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\tape.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\tape.aws">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\tape.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\tape.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\tape.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\tape.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\TXFPER.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\TXFPER.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\TXFPER.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TXFPER.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\TXFPER.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CBUC.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CBUC.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CBUC.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CBUC.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CBUC.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CBUC.subtst">
+      <Filter>Other Files\tests\scripts\tst\subtst</Filter>
+    </None>
+    <None Include="tests\CCW-ILS.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CCWILS.3390-1.comp-z">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\datetime.rexx">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\CCW-ILS.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CCW-ILS.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CCW-ILS.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CCW-ILS.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CDSG.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CDSG.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CDSG.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CDSG.PDF">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CDSG.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCL-et-al.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCL-et-al.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCL-et-al.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCL-et-al.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCL-et-al.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CLCL.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CLCL.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CLCL.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCL.pdf">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CLCL.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="tests\CMPSC.core">
+      <Filter>Other Files\tests\core</Filter>
+    </None>
+    <None Include="tests\CMPSC.asm">
+      <Filter>Other Files\tests\scripts\asm</Filter>
+    </None>
+    <None Include="tests\CMPSC.list">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CMPSC.PDF">
+      <Filter>Other Files\tests\scripts\asm\list</Filter>
+    </None>
+    <None Include="tests\CMPSC.tst">
+      <Filter>Other Files\tests\scripts\tst</Filter>
+    </None>
+    <None Include="vstools.cmd">
+      <Filter>Other Files\Build\msvc</Filter>
+    </None>
+    <None Include=".travis.yml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CODEOWNERS">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\dotest">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="tests\text2tst.rexx">
+      <Filter>Other Files\tests</Filter>
+    </None>
+    <None Include="util\CCKD.JCL.Jan2025.XMI.Updated.zip">
+      <Filter>Other Files\Utilities</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crypto\include\crypto.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\include\crypto_version.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\include\rijndael.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\include\sha1.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\include\sha2.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\include\sshdes.h">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cnsllogo.h">
+      <Filter>Source Files\Hercules\Devices\Con/Disp/Term\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comm3705.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commadpt.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctc_ptp.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctcadpt.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hercifc.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hifr.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netsupp.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qeth.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpnje.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tt32api.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tt32if.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tuntap.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w32ctca.h">
+      <Filter>Source Files\Hercules\Devices\CTC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cckd.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cckd64.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cckddasd.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dasdblks.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dasdtab.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>Source Files\Hercules\Devices\Dasd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ftlib.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hetlib.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scsitape.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scsiutil.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sllib.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tapedev.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w32mtio.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w32stape.h">
+      <Filter>Source Files\Hercules\Devices\Tape\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sockdev.h">
+      <Filter>Source Files\Hercules\Devices\Unit Record\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zfcp.h">
+      <Filter>Source Files\Hercules\Devices\zFCP</Filter>
+    </ClInclude>
+    <ClInclude Include="archlvl.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccfixme.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccnowarn.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccwarn.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chsc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdtab.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpsc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscbit.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscdbg.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscdct.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscget.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscmem.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmpscput.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codepage.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuint.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dat.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgtrace.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="devtype.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecpsvm.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="esa390.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="esa390io.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extstring.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="facility.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feat370.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feat390.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feat900.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featall.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featchk.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fillfnam.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fthreads.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hatomic.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hbyteswp.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hchan.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hconsole.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hconsts.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hcrypto.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdiagf18.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdl.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="herc_getopt.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hercules.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hercwind.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="herror.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hexdumpe.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hexterns.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hinlines.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmacros.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmalloc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hostinfo.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hostopts.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hqadefs.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hqainc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hqawarn.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hRexx.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hscutl.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hsocket.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hstdinc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hstructs.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hthreads.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpmisc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="htypes.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impexp.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inline.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instfmts.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linklist.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="machdep.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memrchr.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpc.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgenu.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcode.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printfmt.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pttrace.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qdio.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resolve.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sie.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skey.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sr.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stfl.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpip.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transact.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vmd250.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vstore.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w32dl.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w32util.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="x75.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zvector.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decContext.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decimal128.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decimal32.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decimal64.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decNumber.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decnumber_version.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decPacked.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="decNumber\include\decQuad.h">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\include</Filter>
+    </ClInclude>
+    <ClInclude Include="telnet\include\telnet.h">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\include</Filter>
+    </ClInclude>
+    <ClInclude Include="telnet\include\telnet_version.h">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftFloat\include\softfloat_version.h">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftFloat\include\softfloat.h">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftFloat\include\softfloat_types.h">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vsvers.h">
+      <Filter>Source Files\Hercules\Emulation\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="decNumber\decnumber.readme.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber</Filter>
+    </Text>
+    <Text Include="SoftFloat\softfloat.LICENSE.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat</Filter>
+    </Text>
+    <Text Include="SoftFloat\softfloat.README.txt">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat</Filter>
+    </Text>
+    <Text Include="_TODO.txt">
+      <Filter>Other Files\DOC</Filter>
+    </Text>
+    <Text Include="license_dyn76.txt">
+      <Filter>Other Files\DOC</Filter>
+    </Text>
+    <Text Include="util\CMPSC.txt">
+      <Filter>Other Files\Utilities</Filter>
+    </Text>
+    <Text Include="util\TMOUNT.txt">
+      <Filter>Other Files\Utilities</Filter>
+    </Text>
+    <Text Include="tests\alsi.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\axtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\BEAR.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\brc.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cdfr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cdgr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cdsg.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cgdr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cgdtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cger.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cgfrl.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cgxr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cgxtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\channel-370.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\comments.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cpsdr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\csst.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cxgbr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\cxgtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\diag24.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\diag8.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\dxtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\epsw.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\ex.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\exrl.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\fiebr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\fixtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\iedtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kimd0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kimd1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kimd2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kimd3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kimd65.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\klmd0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\klmd1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\klmd2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\klmd3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km50.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km52.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km58.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km60.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\km9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmac9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc67.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmc9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmctr9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmf9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo0.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo1.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo10.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo11.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo18.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo19.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo20.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo26.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo27.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo28.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo3.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\kmo9.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\ldetr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\ldxtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\ledtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\lfpc.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\llhrl.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\locgr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\loop.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\lparnum.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\lpp.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\lxdtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\maer.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\mvcos.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\mxtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\popcnt.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\printer.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\punch.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\ptf.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\res40002.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\rnsbg.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\rrdtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\rrxtr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\srdt.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\stfle.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\stidp.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\stsi.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\sus40002.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tape.240k-2.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tape.240k.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tape.2m.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tape.32k.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tapepos.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tbedr.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tdcdt.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\tdgdt.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\thder.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\trace.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="tests\trte.txt">
+      <Filter>Other Files\tests\scripts\txt</Filter>
+    </Text>
+    <Text Include="herclogo.txt">
+      <Filter>Other Files\misc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="crypto\lib\crypto32.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </Library>
+    <Library Include="crypto\lib\crypto64.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </Library>
+    <Library Include="decNumber\lib\decNumber32.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </Library>
+    <Library Include="decNumber\lib\decNumber64.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </Library>
+    <Library Include="SoftFloat\lib\SoftFloat32.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </Library>
+    <Library Include="SoftFloat\lib\SoftFloat64.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </Library>
+    <Library Include="telnet\lib\telnet32.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </Library>
+    <Library Include="telnet\lib\telnet64.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </Library>
+    <Library Include="telnet\lib\telnet32d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </Library>
+    <Library Include="telnet\lib\telnet64d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\telnet\lib</Filter>
+    </Library>
+    <Library Include="SoftFloat\lib\SoftFloat64d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </Library>
+    <Library Include="SoftFloat\lib\SoftFloat32d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\SoftFloat\lib</Filter>
+    </Library>
+    <Library Include="decNumber\lib\decNumber32d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </Library>
+    <Library Include="decNumber\lib\decNumber64d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\decNumber\lib</Filter>
+    </Library>
+    <Library Include="crypto\lib\crypto32d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </Library>
+    <Library Include="crypto\lib\crypto64d.lib">
+      <Filter>Source Files\Hercules\ExtPkgs\crypto\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="hercdasd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hercmisc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="herctape.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hercules.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="html\images\back.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\bkued.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\blueu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\dial1.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\dial2.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\dial3.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\dial4.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\favicon.ico">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\greend.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\greenu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\herclin.jpg">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\herc-panel.jpg">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\herc-panel2.jpg">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\hercpic-rblk-256.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\hercpic-rblk-80.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\interruptd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\interruptu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\loadd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\loadoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\loadonu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\loadu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\manoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\manonu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\note.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\osi-certified-60x50.jpg">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\poweroffd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\poweroffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\poweronoffd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\poweronoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\poweronond.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\powerononu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\redd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\redu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\restartd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\restartu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\startd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\startu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\stopd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\stopu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\stored.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\storeu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\sysoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\sysonu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetputtyconndata.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetputtysession.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetputtyterminal.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetwin10.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetwinntconnect.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetwinnttermpref.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\translucentoffd.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\translucentoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\translucentond.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\translucentonu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\waitoffu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\waitonu.gif">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="html\images\telnetwin.png">
+      <Filter>Other Files\DOC\html\images</Filter>
+    </Image>
+    <Image Include="readme\images\herclogo.jpg">
+      <Filter>Other Files\DOC\README\images</Filter>
+    </Image>
+    <Image Include="readme\images\httpsrvr.jpg">
+      <Filter>Other Files\DOC\README\images</Filter>
+    </Image>
+    <Image Include="readme\images\image_header_herculeshyperionSDL.png">
+      <Filter>Other Files\DOC\README\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hercdasd.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="hercmisc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="hercprod.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="herctape.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
